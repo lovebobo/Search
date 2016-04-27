@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <ListView 
+        android:layout_margin="5dp"
+        android:id="@+id/list_ans"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:background="#ffffff"
+        android:divider="#ffffff"
+        android:dividerHeight="5dp"
+        >
+        
+    </ListView>
+
+</RelativeLayout>
